@@ -1,0 +1,76 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 150px;
+    border-bottom: 1px solid gainsboro;
+}
+
+#nav_1_left{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+#nav_1_right{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    border-bottom: 1px solid gainsboro;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+#header img{
+    height: 60;
+}
+
+#header #scegli_la_categoria{
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+
+}
+
+#header #search_bar{
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 70%;
+    padding: 10px
+
+}
+
+#header #search{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+#nav_2{
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 275px;
+}
+
+#nav_2 a{
+    text-decoration: none;
+    font-size: 0.8em;
+    color: #303030;
+}
