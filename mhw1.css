@@ -15,12 +15,26 @@ body{
 #nav_1_left{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    align-items: center;
+    width: 28%;
 }
 #nav_1_right{
     display: flex;
     justify-content: space-between;
-    width: 20%;
+    align-items: center;
+    width: 23%;
+}
+
+#bell-icon{
+    height: 15px;
+}
+
+#shopping-cart-icon{
+    height: 15px;
+}
+
+.chevron-down{
+    height:8px
 }
 
 #header{
@@ -32,14 +46,20 @@ body{
     padding: 10px 150px;
 }
 
-#header img{
+#header .ebay-logo{
     height: 60;
+}
+
+#header div{
+    margin: 0px 10px;
 }
 
 #header #scegli_la_categoria{
     font-family: Arial, Helvetica, sans-serif;
     color: dimgray;
-
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
 }
 
 #header #search_bar{
@@ -61,16 +81,26 @@ body{
     border-radius: 20px;
 }
 
+#header #avanzata{
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+    font-size: 0.8em;
+}
+
 #nav_2{
     font-family: Arial, Helvetica, sans-serif;
-
     display: flex;
     justify-content: space-between;
-    padding: 8px 275px;
+    padding: 8px 325px;
 }
 
 #nav_2 a{
     text-decoration: none;
     font-size: 0.8em;
     color: #303030;
+}
+
+#nav_2 a:hover{
+    color: royalblue;
+    text-decoration: underline;
 }
