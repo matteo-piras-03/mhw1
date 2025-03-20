@@ -2,6 +2,7 @@
     <head>
         <title>mhw1</title>
         <link rel="stylesheet" href="mhw1.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
     <body>
         <nav id="nav_1">
@@ -33,6 +34,7 @@
                 <img src="shopping-cart-icon.png" id="shopping-cart-icon"/>
             </div>
         </nav>
+        <div class="gray-line"></div>
         <header id="header">
             <img src="eBay_logo.png" class="ebay-logo"/>
             <div id="scegli_la_categoria">
@@ -42,7 +44,7 @@
                 <img src="chevron-down.png" class="chevron-down"/>
             </div>
             <div id="search_bar">
-                Cerca su eBay
+                <input type="text" name="query" placeholder="Cerca su eBay" id="search_box" required>
             </div>
             <div id="search">
                 Cerca
@@ -51,6 +53,7 @@
                 Avanzata
             </div>
         </header>
+        <div class="gray-line"></div>
         <nav id="nav_2">
             <a href="">
                 Salvato
@@ -92,13 +95,85 @@
                 Aste di beneficenza
             </a>
         </nav>
-        <section id="section-1">
-            <div>
-                <h1>Più compri, più lo sconto aumenta</h1>
-                Acquista ciò che ami e risparmia subito fino a 30€* <br>
-                <span id="coupon-button">Usa il coupon</span>
-            </div>
-        </section>
+        <article id="main">
+            <section id="section-1">
+                <div id="overlay">
+                    <div class="text">
+                        <h1>Restituisci con facilità</h1>
+                        Se l'ordine non ti soddisfa, puoi restituirlo senza problemi.<br>
+                        <span class="button">Scopri di più</span>
+                    </div>
+                </div>
+            </section>
+            <h1>I brand più ricercati su eBay</h1>
+            <section id="section-2">
+                <a>
+                    <div class="circle">
+                        <img src="apple_logo.png" />
+                    </div>
+                    <span>
+                        Apple
+                    </span>
+                </a>
+                <a>
+                    <div class="circle">
+                        <img src="dyson_logo.png" />
+                    </div>
+                    <span>
+                        Dyson
+                    </span>
+                </a>
+                <a>
+                    <div class="circle">
+                        <img src="samsung_logo.png" />
+                    </div>
+                    <span>
+                        Samsung
+                    </span>
+                </a>
+                <a>
+                    <div class="circle">
+                        <img src="nintendo_logo.png" />
+                    </div>
+                    <span>
+                        Nintendo
+                    </span>
+                </a>
+                <a>
+                    <div class="circle">
+                        <img src="pokemon_logo.png" />
+                    </div>
+                    <span>
+                        Pokémon
+                    </span>
+                </a>
+                <a>
+                    <div class="circle">
+                        <img src="playstation_logo.png" />
+                    </div>
+                    <span>
+                        PlayStation
+                    </span>
+                </a>
+                <a>
+                    <div class="circle">
+                        <img src="LEGO_logo.png" />
+                    </div>
+                    <span>
+                        Lego
+                    </span>
+                </a>
+            </section>
+            <section id="section-3">
+                <div>
+                    <p>
+                        <h1>Servizio clienti eBay</h1>
+                        Dalla spedizione ai resi, se hai dubbi, siamo qui per aiutarti.
+                    </p>
+                </div>
+                <span class="button">Scopri di più</span>
+            </section>
+        </article>
         <footer id="footer">
             <div id="footer-container">
                 <div class="block-container">
