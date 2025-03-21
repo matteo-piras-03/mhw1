@@ -151,12 +151,13 @@ body{
     border-radius: 20px;
     position: absolute;
 }
-.text{
+#section-1 .text{
     padding: 20px 100px;
 }
 
 #section-1 h1{
-    font-size: 2em;
+    font-family: "Helvetica";
+    font-size: 2.5em;
 }
 
 #section-1 span{
@@ -216,16 +217,108 @@ body{
     margin: 0px 20px;
 }
 
-#section-6{
-    background-color: #303030;
-    color: white;
+#section-4 {
+    overflow-x: auto;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#section-4 .first{
+    background-color: #aaed56;
+    color: #345110;
     font-family: "Montserrat", sans-serif;
-    height: 120px;
+    border-radius: 15px;
+    height: 230px;
+    padding: 10px 15px;
+}
+
+#section-4 .first h1{
+    font-family: "Helvetica";
+}
+
+#section-4 .first .button{
+    background-color: #345110;
+    color: #aaed56;
+    font-weight: bold;
+    font-size: 0.8em;
+    padding: 10px 17px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+
+.item-list {
+    display: flex;
+    flex-shrink: 0;
+    gap: 10px;
+}
+
+.item {
+    min-width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.item img{
+    width: 250px;
+    height: 250px;
+    background-color: #f0f0f0;;
+    border-radius: 15px;
+    border: none;
+}
+
+.item p{
+    font-size: 0.8em;
+    font-family: "Helvetica";
+}
+
+.item p .price{
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 2;
+}
+
+.item p .old-price{
+    line-height: 2;
+    font-size: 0.8em;
+    text-decoration: line-through;
+    color: gray;
+}
+
+#section-7{
+    background-color: #aaed56;
+    color: #345110;
+    font-family: "Montserrat", sans-serif;
+    height: 350px;
     border-radius: 20px;
     margin: 10px auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+}
+
+#section-7 h1{
+    font-size: 2.5em;
+    font-family: "Helvetica";
+}
+
+#section-7 .button{
+    background-color: #345110;
+    color: #aaed56;
+    font-weight: bold;
+    padding: 12px 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+}
+
+#section-7 .text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
 }
 
 .circle {
