@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>mhw1</title>
-        <link rel="stylesheet" href="mhw1.css" />
+        <title>mhw2</title>
+        <link rel="stylesheet" href="mhw2.css" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <script src="mhw2.js" defer></script>
     </head>
     <body>
         <nav id="nav_1">
@@ -20,7 +21,7 @@
                     eBay Imperdibili
                 </span>
                 <span>
-                    Aiuto e contatti <img src="chevron-down.png" class="chevron-down"/>
+                    Aiuto e contatti
                 </span>
             </div>
             <div id="nav_1_right">
@@ -28,7 +29,7 @@
                     Vendi
                 </span>
                 <span>
-                    Oggetti che osservi <img src="chevron-down.png" class="chevron-down"/>
+                    Oggetti che osservi
                 </span>
                 <span>
                     Il mio eBay <img src="chevron-down.png" class="chevron-down"/>
@@ -108,12 +109,31 @@
             </a>
         </nav>
         <article id="main">
-            <section id="section-1">
-                <div id="overlay">
-                    <div class="text">
-                        <h1>Restituisci con facilità</h1>
-                        Se l'ordine non ti soddisfa, puoi restituirlo senza problemi.<br>
-                        <span class="button">Scopri di più</span>
+            <section id="section-1" class="content-1">
+                <div id="overlay-1">
+                    <div class="upper">
+                        <div class="text">
+                            <h1>Restituisci con facilità</h1>
+                            <p>Se l'ordine non ti soddisfa, puoi restituirlo senza problemi.<br></p>
+                            <button class="button-1 text-button">Scopri di più</button>
+                        </div>
+                        <img src=""/>
+                    </div>
+                    <div id="nav-small">
+                        <div class="spacer"></div>
+                        <div id="nav-small-left">
+                            <div class="dot" data-index="0" data-active="1" data-content="1"></div>
+                            <div class="dot" data-index="1" data-active="0" data-content="1"></div>
+                            <div class="dot" data-index="2" data-active="0" data-content="1"></div>
+                        </div>
+                        <div id="nav-small-right">
+                            <button data-position="left">
+                                <img src="chevron-left.png" class="chevron-left"/>
+                            </button>
+                            <button data-position="right">
+                                <img src="chevron-right.png" class="chevron-right"/>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>
